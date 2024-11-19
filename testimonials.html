@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivah.com - Testimonials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .testimonials-section {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            /* Gradient background */
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .testimonials-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .testimonials-section h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: #fff;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+        .testimonial {
+            margin-bottom: 20px;
+            font-style: italic;
+            color: #eee;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 4px;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+            /* Add fade-in effect */
+        }
+
+        .testimonial h3 {
+            color: #fff;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1.1em;
+        }
+
+        .testimonial blockquote {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-left: 5px solid #fff;
+            position: relative;
+            color: white;
+        }
+
+        .testimonial blockquote::before {
+            content: open-quote;
+            font-size: 3em;
+            color: #fff;
+            position: absolute;
+            top: -10px;
+            left: 10px;
+        }
+
+        .testimonial cite {
+            display: block;
+            margin-top: 10px;
+            font-style: normal;
+            color: #fff;
+        }
+
+        /* Keyframes for fade-in effect */
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section id="testimonials" class="testimonials-section">
+        <h2>Our Success Stories</h2>
+
+        <div class="testimonial">
+            <h3>Emily & Raj</h3>
+            <blockquote>
+                "Meeting my soulmate online was something I never imagined. From the first message, we felt an instant
+                connection. The platform made it easy to find someone who shared my interests and values. Raj and I are
+                now happily married, and we couldn't be more thankful for the journey that led us to each other. Thank
+                you for making our fairy tale come true!"
+                <cite>- Emily</cite>
+            </blockquote>
+        </div>
+
+        <div class="testimonial">
+            <h3>Anita & Vivek</h3>
+            <blockquote>
+                "We both had our reservations about online dating, but this website changed our lives forever. The
+                detailed profiles and compatibility scores gave us the confidence to reach out to each other. It's been
+                two years since we got married, and every day feels like a new adventure. We are eternally grateful for
+                this wonderful platform!"
+                <cite>- Anita & Vivek</cite>
+            </blockquote>
+        </div>
+
+        <div class="testimonial">
+            <h3>John & Priya</h3>
+            <blockquote>
+                "After several failed attempts at traditional dating, I decided to give online dating a try. That's when
+                I met Priya. Our bond grew stronger with each conversation, and we knew we were meant to be together.
+                This website brought us together, and now we are looking forward to spending the rest of our lives as
+                husband and wife. Thank you for bringing us together!"
+                <cite>- John</cite>
+            </blockquote>
+        </div>
+    </section>
+</body>
+
+</html>
